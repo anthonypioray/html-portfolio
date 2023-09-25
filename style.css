@@ -1,0 +1,110 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffa500;
+}
+
+body {
+    background-color: #201403;
+}
+
+.homepage-header {
+    border: #ffa500 solid 3px;
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+}
+
+.header-name {
+    text-align: center;
+    font-size: 10rem;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.second-grid {
+    background-color: #ffa500 ;
+    border-radius: 13px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.second-grid-p {
+    padding: 40px;
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -0.1rem;
+    line-height: 0.9;
+    color: #201403
+}
+
+.second-grid-p2 {
+    padding: 40px;
+    margin-top: -100px;
+    text-align: left;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #201403;
+}
+
+.third-grid {
+    background-color: #ffa500 ;
+    border-radius: 13px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.third-grid-p {
+    padding: 15px;
+    padding-top: 1px;
+    text-align: left;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.9;
+    color: #201403
+}
+
+.fourth-grid {
+    background-color: #ffa500 ;
+    border-radius: 13px;
+    margin-left: 5px;
+    margin-right: 2.5px;
+    margin-bottom: 5px;
+    
+}
+
+.fifth-grid {
+    background: url(./assets/DP_UP-mindupe2.jpeg) no-repeat;
+    background-size:cover;
+    border-radius: 13px;
+    margin-right: 5px;
+    margin-left: 2.5px;
+    margin-bottom: 5px;
+}
+
+.nav-desk {
+    border: #ffa500 solid 3px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1rem;
+    position: relative;
+    z-index: 1;
+}
+
+.home-button {
+    text-decoration: none;
+}
+
+.about-me-button {
+    text-decoration: none;
+}
+
+.connect-with-me-button {
+    text-decoration: none;
+}
